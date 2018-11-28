@@ -1,0 +1,98 @@
+header {
+font-size: 2em;
+font-weight: bold;
+display: flex;
+flex-direction: column;
+margin: 20px;
+background-color: black;
+}
+
+.center {
+display: block; 
+margin-left: auto;
+margin-right: auto;
+} 
+
+
+#title {
+color: white;
+text-align: center;
+font-family: 'Amatic SC', cursive;
+flex-direction: column;
+display: flex;
+}
+html, body {
+background-color: black;
+background: url("http://moviehole.net/img/ahsposter-Copy.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+min-width: 320px;
+text-align: left;
+}
+#description {
+font-weight: bold;
+text-align: center;
+color: red;
+}
+
+#userAge {
+width: 40px;
+}
+
+#form-outer {
+background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+margin: 0 auto;
+max-width: 900px;
+border-radious: 4px;
+padding: 60px;
+width: 75%;
+font-family: 'Amatic SC' , cursive;
+font-size: 49px;
+}
+
+.labels {
+  color: red;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  
+}
+
+.dropdown {
+height: 35px;
+width: 140px;
+padding: 5px;
+margin: 10px;
+margin-top: 15px;
+
+}
+.input-field {
+height: 30px;
+width: 280px;
+padding: 5px;
+margin: 10px;
+border: 1px solid;
+border-radius: 2px;
+}
+
+#textarea {
+display: grid;
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr;
+width: 90%;
+}
+#submit {
+background-color: #990012;
+border-radius: 6px;
+color: white;
+font-size: 1.25em;
+padding: 3px 2px;
+margin: 8px 0;
+border: 1px solid;
+font-family: 'Amatic SC', cursive;
+width: 100%;
+  
+}
